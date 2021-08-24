@@ -1,0 +1,12 @@
+
+main{
+    width: 100%;
+    height: 560px;
+}
+
+section{
+    width: 100%;
+    height: 560px;
+    float: left;
+    background-color: #FFF;
+}
