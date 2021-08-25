@@ -23,13 +23,50 @@ main{
     height: 400px;
     border-radius: 13px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 3px solid #004AAD;
 }
 
 .item div img{
-    padding: 9px;
-    border-radius: 20px;    
+    padding: 7px;
+    border-radius: 20px;
+    margin-bottom: 10px;       
 }
 
+.item-description{
+    
+    margin: 10px;
+    text-align: center;    
+    padding: 10px;
+    
+}
+
+.container-item-button{
+   /* border: 1px solid black;*/
+    margin: 10px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-item-button button{
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: #004AAD;
+    color: white;
+    border-radius: 3px;
+}
+
+.container-item-button button a{
+    text-decoration: none;
+    color: white;
+}
+
+.container-item-button button a:hover{
+    color:#FF4C29 ;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 
 footer{
     width: 100%;
