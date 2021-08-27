@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Lato', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 body{
@@ -13,7 +13,13 @@ header{
     width: 100%;
     height: 170px;
     background-color: #0066CC;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    background: rgb(30, 163, 172);
+    background: -moz-linear-gradient(33deg, rgb(30, 163, 172) 32%, rgb(0, 136, 250) 65%);
+    background: -webkit-linear-gradient(33deg, rgb(30, 163, 172) 32%, rgb(0, 136, 250) 65%);
+    background: -o-linear-gradient(33deg, rgb(30, 163, 172) 32%, rgb(0, 136, 250) 65%);
+    background: -ms-linear-gradient(33deg, rgb(30, 163, 172) 32%, rgb(0, 136, 250) 65%);
+    background: linear-gradient(123deg, rgb(30, 163, 172) 32%, rgb(0, 136, 250) 65%);      
 }
 
 .logo-container{    
@@ -63,7 +69,6 @@ nav ul li a{
     color: white;
     font-size: 20px;
     padding: 100px;
-
     
 }
 

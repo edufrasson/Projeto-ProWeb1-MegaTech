@@ -61,11 +61,16 @@ main{
 .container-item-button button a{
     text-decoration: none;
     color: white;
+    padding: 5px;
+}
+
+.container-item-button button:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .container-item-button button a:hover{
     color:#FF4C29 ;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   
 }
 
 footer{
