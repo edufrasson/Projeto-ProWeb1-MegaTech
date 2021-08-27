@@ -19,7 +19,9 @@ header{
     background: -webkit-linear-gradient(33deg, rgb(30, 163, 172) 32%, rgb(0, 136, 250) 65%);
     background: -o-linear-gradient(33deg, rgb(30, 163, 172) 32%, rgb(0, 136, 250) 65%);
     background: -ms-linear-gradient(33deg, rgb(30, 163, 172) 32%, rgb(0, 136, 250) 65%);
-    background: linear-gradient(123deg, rgb(30, 163, 172) 32%, rgb(0, 136, 250) 65%);      
+    background: linear-gradient(123deg, rgb(30, 163, 172) 32%, rgb(0, 136, 250) 65%);
+    display: flex;
+    justify-content: space-around;     
 }
 
 .logo-container{    
@@ -28,7 +30,7 @@ header{
     float: left;
     display: flex;
     justify-content: center;    
-        
+   /* border: 1px solid black;   */ 
 }
 
 header h1{   
@@ -36,13 +38,41 @@ header h1{
     margin: 55px;    
 }
 
-.header-title{
+.header-title-container{
     display: flex;
     justify-content: center;    
     height: 170px;
     width: 60%;
-    float: left;
-   
+    float: left;    
+    align-items: center;   
+}
+
+.header-title h1{
+    border: 1px solid #0066CC;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #0066CC;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.search-bar input{
+    width: 200px;
+    height: 30px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.search-bar{
+    /*border: 1px solid black;*/
+    display: flex;
+    justify-content: center;
+    float: right;
+    width: 20%;
+    height: 170px;
+    align-items: center;   
+
 }
 
 nav{
@@ -68,8 +98,7 @@ nav ul li a{
     text-decoration: none;    
     color: white;
     font-size: 20px;
-    padding: 100px;
-    
+    padding: 100px;    
 }
 
 nav ul li a:hover{
@@ -85,7 +114,15 @@ footer{
     color: white;
 }
 
-footer h5{
+.footer-text-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-top: 6%;
+    
+}
+
+/*footer h5{
     padding-top: 90px;
     padding-left: 10px;
     text-align: left;
@@ -97,4 +134,4 @@ footer h4{
     float: left;
     padding-left: 700px;
     padding-top: 90px;
-}
+}*/
