@@ -1,14 +1,13 @@
 main{
     width: 100%;
-    height: 560px;
-    margin-bottom: 50px;
-    
+    height: 590px;
+    margin-bottom: 50px;    
 }
 
 #container{
     border: 1px solid black;
     width: 80%;
-    height: 550px;
+    height: 580px;
     margin: 30px;
     background-color: #fff;
     border-radius: 20px;
@@ -27,7 +26,38 @@ main{
 #container div img{
     border:4px solid #164e79fc;
     border-radius: 10px;
-    margin-bottom: 10PX;
+    margin-bottom: 15px;
+}
+
+.container-item-button{    
+     margin: 10px;
+     height: 58px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .container-item-button button{
+     font-size: 20px;
+     border: 1px solid black;
+     padding: 5px;
+     background-color: #004AAD;
+     color: white;
+     border-radius: 3px;
+ }
+ 
+ .container-item-button button a{
+     text-decoration: none;
+     color: white;
+     padding: 5px;
+ }
+
+ .container-item-button button:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.container-item-button button a:hover{
+    color:#FF4C29 ;   
 }
 
 section{

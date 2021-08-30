@@ -2,8 +2,7 @@
 main{
     width: 100%;
     height: 560px;
-    margin-bottom: 30px;
-    
+    margin-bottom: 30px;    
 }
 
 section{
@@ -21,8 +20,7 @@ section{
     margin: 30px;
     background-color: white;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;    
 }
 
 .container h1{
@@ -30,10 +28,11 @@ section{
     border-bottom: 2px solid #164e79fc ;
     padding-bottom: 30px;
     font-size: 50px;
+    text-shadow: 3px 0px 3px rgba(0, 147, 255, 1);
 }
 
 .container p{
     text-align: justify;
     padding: 40px;
-    font-size: 30px;
+    font-size: 23px;
 }
