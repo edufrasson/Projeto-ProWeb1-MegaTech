@@ -12,7 +12,9 @@ main{
     display: flex;
     padding-top: 13px;    
     justify-content: space-around;
-    margin-top: 20px;    
+    margin-top: 20px; 
+    flex-wrap: wrap;
+    row-gap: 50px;   
 }
 
 .item{
@@ -91,3 +93,22 @@ footer{
     padding: 10px;
     padding-top: 6%;    
 }
+
+@media (max-width: 1085px){
+    footer{
+        top: 1450px;
+    }
+}
+
+@media (max-width: 929px){
+    footer{
+        top: 1890px;
+    }
+}
+
+@media (max-width: 620px){
+    footer{
+        top: 3750px;
+    }
+}
+

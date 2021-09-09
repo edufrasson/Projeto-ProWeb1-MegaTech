@@ -159,3 +159,13 @@ footer{
         width: 130px;
     }
 }
+
+@media (max-width: 375px){
+    .header-title-container{
+        display: none;
+    }
+    nav ul{
+        gap: 50px;
+    }
+}
+

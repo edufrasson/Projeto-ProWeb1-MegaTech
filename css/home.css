@@ -27,6 +27,10 @@ center{
     text-shadow: 3px 0px 3px rgba(0, 147, 255, 1);
 }
 
+#container h2{
+    font-size: 2.5rem;
+}
+
 .container-img{
     width: 395px;
     height: 320px;
