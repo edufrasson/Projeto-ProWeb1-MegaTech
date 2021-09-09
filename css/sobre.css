@@ -9,7 +9,7 @@ section{
     width: 100%;
     height: 560px;
     float: left;
-    background-color: #CCC;
+    background-color: #fff;
 }
 
 .container{
@@ -34,5 +34,5 @@ section{
 .container p{
     text-align: justify;
     padding: 40px;
-    font-size: 23px;
+    font-size: 2.3rem;
 }
